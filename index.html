@@ -67,7 +67,7 @@
             let city = document.getElementById("userQuery").value;
             try {
                     let response = await fetch(
-                    `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=4cecf8143838a9ff4eaef4f1a07bf673`
+                    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=4cecf8143838a9ff4eaef4f1a07bf673`
                 )
                 .then(async (response) => {
                     if (response.ok) {
